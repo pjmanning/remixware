@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="a" cx="18%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#c6f24e" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#c6f24e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="92%" cy="8%" r="62%">
+      <stop offset="0%" stop-color="#57e2c4" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#57e2c4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0v72" fill="none" stroke="#e8f2ec" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="#05100c"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#a)"/>
+  <rect width="1200" height="630" fill="url(#b)"/>
+
+  <g transform="translate(88 92)">
+    <g transform="scale(1.5)">
+      <path d="M8 10c6 0 10 4 10 10" fill="none" stroke="#c6f24e" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M24 22c-6 0-10-4-10-10" fill="none" stroke="#c6f24e" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="8" cy="10" r="2.4" fill="#c6f24e"/>
+      <circle cx="24" cy="22" r="2.4" fill="#c6f24e"/>
+    </g>
+    <text x="64" y="34" font-family="Verdana, DejaVu Sans, sans-serif" font-size="34" font-weight="700" fill="#e8f2ec" letter-spacing="-0.5">Remixware</text>
+  </g>
+
+  <text x="88" y="330" font-family="Verdana, DejaVu Sans, sans-serif" font-size="76" font-weight="700" fill="#e8f2ec" letter-spacing="-2.5">Buy once.</text>
+  <text x="88" y="424" font-family="Verdana, DejaVu Sans, sans-serif" font-size="76" font-weight="700" fill="#c6f24e" letter-spacing="-2.5">Remix forever.</text>
+
+  <text x="88" y="530" font-family="Courier New, monospace" font-size="22" fill="#8fa79d" letter-spacing="3">VETTED ONE-OFFS &#183; AGENT.MD &#183; DOCS &#183; SECURITY CHECK</text>
+
+  <rect x="88" y="562" width="1024" height="1" fill="#1e3830"/>
+</svg>
