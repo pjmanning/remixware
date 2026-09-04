@@ -43,8 +43,8 @@ pnpm run dev:all
 
 ## Repos
 
-- Origin: create/mirror `pjmanning/remixware` (agent session may push to a temporary Origin remote until mirrored)
 - GitHub: https://github.com/pjmanning/remixware
+- Origin `pjmanning/remixware`: run `origin repo create-mirrored pjmanning/remixware` (this cloud agent token was not scoped to create it; code is on the session Origin remote and mirrored to GitHub)
 
 ## Stack notes
 
